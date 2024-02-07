@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+        thead {
+            background-color: green;
+        }
+        td {
+            padding: 9px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table border="2" style="border-color: red;">
+        <colgroup>
+            <col span="1" style="background-color: lightblue;">
+            <col span="1" style="background-color: gray;">
+            <col span="1" style="background-color: blue;">
+        </colgroup>
+        <thead>
+            <tr>
+                <td colspan="3"><strong>Nagłówek na zeilonym tle</strong></td>
+            </tr>
+        </thead>
+        <tr>
+            <td>nagłówek1</td>
+            <td>nagłówek2</td>
+            <td>nagłówek3</td>
+        </tr>
+        <tr>
+            <td>komórka1</td>
+            <td>komórka2</td>
+            <td>komórka3</td>
+        </tr>
+        <tr>
+            <td>komórka4</td>
+            <td>komórka5</td>
+            <td>komórka6</td>
+        </tr>
+    </table>
+</body>
+</html>

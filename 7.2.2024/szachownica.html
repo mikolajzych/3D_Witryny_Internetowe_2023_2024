@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: green;
+            text-align: center;
+        }
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            width: 200px;
+            height: 200px;
+            margin: auto; /* Centrowanie poziome */
+        }
+        .red, .white {
+            width: 100px;
+            height: 100px;
+        }
+        .red {
+            background-color: red;
+        }
+        .white {
+            background-color: white;
+        }
+        .orange {
+            color: orange;
+        }
+        .white_text {
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h2><strong>Biało-czerwona szachownica lotnicza</strong></h2>
+    <p>
+        Znak <span class="orange">Polskich <span class="white_text">Sił</span> Powietrznych</span>, malowany na statkach powietrznych. <br>
+        Znak ma formę kwadratowej szachownicy o czterech polach w kolorach <br>
+        czerwonym i białym. Poniżej przedstawiono wzór szachownicy lotniczej <br>
+        stosowanej w lotnictwie polskim w latach 1918-1921.
+    </p>
+    <div class="main">
+        <div class="red"></div>
+        <div class="white"></div>
+        <div class="white"></div>
+        <div class="red"></div>
+    </div>
+</body>
+</html>

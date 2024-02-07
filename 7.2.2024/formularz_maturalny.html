@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <form action="dyrekcja@szkola.pl">
+        <fieldset>
+            <legend>Formularz maturalny</legend>
+            <p>
+                Imie: <input type="text"> <br>
+            </p>
+            <p>
+                Nazwisko: <input type="text">
+            </p>
+            <p>
+                Numer klasy: <input type="radio">
+                <label for="A">A</label>
+                <input type="radio">
+                <label for="A">B</label>
+                <input type="radio">
+                <label for="A">TT</label>
+            </p>
+            <p>
+                Przedmioty: <input type="checkbox" id="matma">
+                <label for="matma">Matematyka</label>
+                <input type="checkbox" id="polak">
+                <label for="polak">Polski</label>
+                <input type="checkbox" id="anglik">
+                <label for="anglik">Język angielski</label>
+            </p>
+            <p>
+                Płeć: <input type="radio" id="kobieta">
+                <label for="kobieta">Kobieta</label>
+                <input type="radio" id="mezczyzna">
+                <label for="mezczyzna">Mężczyzna</label>
+            </p>
+            <p>
+                <label for="description">Uwagi:</label><br>
+                <textarea name="description" id="description" cols="25" rows="5"></textarea>
+            </p>
+            <p>
+                <button type="submit">Wyślij</button>
+                <button type="reset">Resetuj formularz</button>
+            </p>
+
+        </fieldset>
+    </form>
+</body>
+</html>
