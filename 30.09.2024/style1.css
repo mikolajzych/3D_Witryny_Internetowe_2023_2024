@@ -1,0 +1,18 @@
+ul,li { display: block; margin: 0; padding: 0;}
+ul { width: 150px;}
+
+ul a:link{ 
+    display: block;
+    width: 140px;
+    background-color: #23f110;
+    color: #e6e2e4;
+    padding: 4px;
+    border: 3px outset #030;
+}
+/* zm wysweitlania elementow */
+li,a {
+    display: list-item;
+}
+ul a.fiolet {
+    color: green;
+}
